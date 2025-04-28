@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Nails by Parmeet</title>
+    <!-- Google Fonts - Including Dancing Script -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section - Improved Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Nails by Parmeet</h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#story">Our Story</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="index.html#testimonials">Reviews</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="index.html#book" class="book-btn">Book Now</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="mobile-nav">
+                    <div class="close-mobile-menu">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#story">Our Story</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="index.html#testimonials">Reviews</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="index.html#book" class="book-btn">Book Now</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Gallery Hero Section -->
+    <section class="gallery-hero">
+        <div class="container">
+            <h2>Our Nail Art Gallery</h2>
+            <p>Browse through our stunning nail designs and get inspired for your next appointment</p>
+        </div>
+    </section>
+
+    <!-- Gallery Categories -->
+    <section class="gallery-categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="category-btn active" data-filter="all">All</button>
+                <button class="category-btn" data-filter="gel">Gel Polish</button>
+                <button class="category-btn" data-filter="acrylic">Acrylic</button>
+                <button class="category-btn" data-filter="extensions">Extensions</button>
+                <button class="category-btn" data-filter="art">Nail Art</button>
+                <button class="category-btn" data-filter="bridal">Bridal</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Gallery -->
+    <section class="main-gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Gel Polish Category -->
+                <div class="gallery-item" data-category="gel">
+                    <img src="https://images.unsplash.com/photo-1604902396  data-category="gel">
+                    <img src="https://images.unsplash.com/photo-1604902396830-aca29e19b067?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Gel Polish 1">
+                    <div class="gallery-overlay">
+                        <span>Chrome Effect Gel Polish</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="gel">
+                    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Gel Polish 2">
+                    <div class="gallery-overlay">
+                        <span>Cat Eye Effect</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="gel">
+                    <img src="https://images.unsplash.com/photo-1571290274554-6a2eaa771e5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Gel Polish 3">
+                    <div class="gallery-overlay">
+                        <span>Glitter Effects</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="gel">
+                    <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Gel Polish 4">
+                    <div class="gallery-overlay">
+                        <span>Ombre Effects</span>
+                    </div>
+                </div>
+                
+                <!-- Acrylic Category -->
+                <div class="gallery-item" data-category="acrylic">
+                    <img src="https://images.unsplash.com/photo-1583255448430-17c5eda08e5c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Acrylic 1">
+                    <div class="gallery-overlay">
+                        <span>Natural Acrylic</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="acrylic">
+                    <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Acrylic 2">
+                    <div class="gallery-overlay">
+                        <span>French Acrylic</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="acrylic">
+                    <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Acrylic 3">
+                    <div class="gallery-overlay">
+                        <span>Glitter Acrylic</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="acrylic">
+                    <img src="https://images.unsplash.com/photo-1604902396830-aca29e19b067?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Acrylic 4">
+                    <div class="gallery-overlay">
+                        <span>Foil Art Acrylic</span>
+                    </div>
+                </div>
+                
+                <!-- Extensions Category -->
+                <div class="gallery-item" data-category="extensions">
+                    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Extensions 1">
+                    <div class="gallery-overlay">
+                        <span>Natural Gel Extension</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="extensions">
+                    <img src="https://images.unsplash.com/photo-1571290274554-6a2eaa771e5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Extensions 2">
+                    <div class="gallery-overlay">
+                        <span>French Gel Extension</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="extensions">
+                    <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Extensions 3">
+                    <div class="gallery-overlay">
+                        <span>Temporary Extension</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="extensions">
+                    <img src="https://images.unsplash.com/photo-1583255448430-17c5eda08e5c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Extensions 4">
+                    <div class="gallery-overlay">
+                        <span>Inbuilt Glitter Extension</span>
+                    </div>
+                </div>
+                
+                <!-- Nail Art Category -->
+                <div class="gallery-item" data-category="art">
+                    <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Nail Art 1">
+                    <div class="gallery-overlay">
+                        <span>3D Flowers</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="art">
+                    <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Nail Art 2">
+                    <div class="gallery-overlay">
+                        <span>Foil Paper Effects</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="art">
+                    <img src="https://images.unsplash.com/photo-1604902396830-aca29e19b067?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Nail Art 3">
+                    <div class="gallery-overlay">
+                        <span>Mylar Effects</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="art">
+                    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Nail Art 4">
+                    <div class="gallery-overlay">
+                        <span>Dry Flower Art</span>
+                    </div>
+                </div>
+                
+                <!-- Bridal Category -->
+                <div class="gallery-item" data-category="bridal">
+                    <img src="https://images.unsplash.com/photo-1571290274554-6a2eaa771e5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Bridal 1">
+                    <div class="gallery-overlay">
+                        <span>Elegant Bridal Set</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="bridal">
+                    <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Bridal 2">
+                    <div class="gallery-overlay">
+                        <span>Pearl Bridal Design</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="bridal">
+                    <img src="https://images.unsplash.com/photo-1583255448430-17c5eda08e5c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Bridal 3">
+                    <div class="gallery-overlay">
+                        <span>Gold Accent Bridal</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="bridal">
+                    <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Bridal 4">
+                    <div class="gallery-overlay">
+                        <span>Crystal Bridal Set</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Appointment Banner -->
+    <section class="book-banner">
+        <div class="container">
+            <div class="banner-content">
+                <h2>Ready to Transform Your Nails?</h2>
+                <p>Book your appointment today and experience the magic of Nails by Parmeet</p>
+                <a href="index.html#book" class="btn">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Nails by Parmeet</h3>
+                    <p>Where nail artistry meets luxury</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#story">Our Story</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="index.html#testimonials">Reviews</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Nails by Parmeet. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox for Gallery -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-img" id="lightbox-img">
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
